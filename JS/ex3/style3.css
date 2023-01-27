@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#container > div {
+    width: 200px;
+    height: 200px;
+}
+.one {
+    background-color: rgba(251, 21, 21, 0.341);
+}
+.two {
+    background-color: rgba(49, 164, 20, 0.492);
+}
+.three {
+    background-color: rgba(141, 29, 182, 0.591);
+}
+.four {
+    background-color: rgb(153, 143, 143);
+}
