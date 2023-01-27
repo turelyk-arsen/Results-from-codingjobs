@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container > div {
+    height: 200px;
+    width: 200px;
+}
+.one {
+    background-color: rgb(253, 5, 5);
+}
+.two {
+    background-color: rgb(5, 112, 253);
+}
+.three {
+    background-color: rgb(5, 253, 42);
+}
+.four {
+    background-color: rgb(212, 253, 5);
+}
+
+.my-text {
+    background-color: rgb(242, 4, 250);
+    height: 100px;
+    width: 100px;
+    color: #000;
+    text-align: center;
+}
+
+.paintGreen {
+    background-color: rgb(4, 251, 115);
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,56 @@
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  color: gray;
+  font-size: 12px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.card > img {
+  height: 400px;
+}
+
+.info {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+  color: white;
+  padding: 20px 0px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.heart-white {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.heart-red {
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
